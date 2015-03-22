@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f0cd565-c3d1-4e1f-aefb-e1855a2a3890" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7175/Especialidades.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Especialidades.disco" MetadataType="Disco" ID="116e9600-5472-4a59-96a4-3b1eef4a70cb" SourceId="1" SourceUrl="http://localhost:7175/Especialidades.svc?disco" />
+    <MetadataFile FileName="Especialidades.xsd" MetadataType="Schema" ID="823aac80-1e79-419a-accf-c8e3b7ef689d" SourceId="1" SourceUrl="http://localhost:7175/Especialidades.svc?xsd=xsd1" />
+    <MetadataFile FileName="Especialidades1.xsd" MetadataType="Schema" ID="2b5a5346-76bc-4753-a973-17bed857a4d9" SourceId="1" SourceUrl="http://localhost:7175/Especialidades.svc?xsd=xsd0" />
+    <MetadataFile FileName="Especialidades.wsdl" MetadataType="Wsdl" ID="02a37e83-77ca-4afc-9898-87eb056c3164" SourceId="1" SourceUrl="http://localhost:7175/Especialidades.svc?wsdl" />
+    <MetadataFile FileName="Especialidades2.xsd" MetadataType="Schema" ID="e7ea5df7-e7f5-48cf-b9a0-2519c13b9f91" SourceId="1" SourceUrl="http://localhost:7175/Especialidades.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
